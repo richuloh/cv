@@ -57,13 +57,14 @@ def clean_list(items: list[dict[str, str]]) -> str:
     ) + "</ul>"
 
 
-def author_markup(work: dict[str, Any]) -> str:
+def author_markup(work: dict[str, Any], is_lead: bool) -> str:
     authors = []
     for contributor in work.get("contributors") or []:
         raw_name = str(contributor.get("name") or "").strip()
         escaped = e(raw_name)
         if normalize_name(raw_name) in TARGET_NAME_VARIANTS:
-            escaped = f"<strong>{escaped}</strong>"
+            star = '<span class="lead-star" aria-hidden="true">*</span>' if is_lead else ""
+            escaped = f"<strong>{escaped}</strong>{star}"
         authors.append(escaped)
     return ", ".join(authors)
 
@@ -83,8 +84,7 @@ def render_publication_item(work: dict[str, Any], is_lead: bool) -> str:
     title = e(work.get("title"))
     url = e(work.get("url"))
     title_markup = f'<a href="{url}" target="_blank" rel="noopener">{title}</a>' if url else title
-    star = '<span class="lead-star" aria-hidden="true">*</span>' if is_lead else ""
-    authors = author_markup(work)
+    authors = author_markup(work, is_lead)
     author_line = f'<p class="publication-authors">{authors}</p>' if authors else ""
     journal = e(work.get("journal"))
     year = e((work.get("date") or {}).get("year"))
@@ -102,7 +102,7 @@ def render_publication_item(work: dict[str, Any], is_lead: bool) -> str:
         meta.append(f'<a class="badge" href="{pmid_url}" target="_blank" rel="noopener">PubMed</a>')
     return f"""<li class="publication-item">
       <div>
-        <h3 class="publication-title">{title_markup}{star}</h3>
+        <h3 class="publication-title">{title_markup}</h3>
         {author_line}
         {venue_line}
         <div class="publication-meta">{''.join(meta)}</div>
@@ -226,6 +226,20 @@ def build_page(profile: dict[str, Any], cv: dict[str, Any], orcid: dict[str, Any
     publications_total = e(labels["publications_total"].replace("{count}", str(len(works))))
     publications_markup = publication_section(works, overrides, labels)
 
+    base_url = str(profile.get("site", {}).get("base_url") or "").rstrip("/")
+    canonical_path = "/" if is_ko else "/en/"
+    canonical_url = f"{base_url}{canonical_path}" if base_url else ""
+    canonical_tag = f'<link rel="canonical" href="{e(canonical_url)}">' if canonical_url else ""
+    og_url_tag = f'<meta property="og:url" content="{e(canonical_url)}">' if canonical_url else ""
+    hreflang_tags = ""
+    if base_url:
+        hreflang_tags = (
+            f'<link rel="alternate" hreflang="ko" href="{e(base_url)}/">'
+            f'<link rel="alternate" hreflang="en" href="{e(base_url)}/en/">'
+            f'<link rel="alternate" hreflang="x-default" href="{e(base_url)}/">'
+        )
+    og_image = f"{base_url}/{e(profile['photo'])}" if base_url else f"{prefix}{e(profile['photo'])}"
+
     return f"""<!doctype html>
 <html lang="{lang}">
 <head>
@@ -236,7 +250,10 @@ def build_page(profile: dict[str, Any], cv: dict[str, Any], orcid: dict[str, Any
   <meta property="og:type" content="profile">
   <meta property="og:title" content="{e(page_title)}">
   <meta property="og:description" content="{e(description)}">
-  <meta property="og:image" content="{prefix}{e(profile['photo'])}">
+  <meta property="og:image" content="{og_image}">
+  {og_url_tag}
+  {canonical_tag}
+  {hreflang_tags}
   <title>{e(page_title)}</title>
   <link rel="stylesheet" href="{prefix}assets/site.css">
   <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False).replace('</', '<\\/')}</script>
@@ -362,7 +379,24 @@ def main() -> int:
     (DIST / "index.html").write_text(build_page(profile, ko, orcid, overrides), encoding="utf-8")
     (DIST / "en" / "index.html").write_text(build_page(profile, en, orcid, overrides), encoding="utf-8")
     (DIST / ".nojekyll").write_text("", encoding="utf-8")
-    (DIST / "robots.txt").write_text("User-agent: *\nAllow: /\n", encoding="utf-8")
+
+    base_url = str(profile.get("site", {}).get("base_url") or "").rstrip("/")
+    robots_lines = ["User-agent: *", "Allow: /"]
+    if base_url:
+        robots_lines.append(f"Sitemap: {base_url}/sitemap.xml")
+        lastmod = str(orcid.get("last_synced_utc") or "").split("T")[0]
+        sitemap_urls = [f"{base_url}/", f"{base_url}/en/"]
+        sitemap_entries = "".join(
+            f"  <url><loc>{html.escape(url)}</loc><lastmod>{lastmod}</lastmod></url>\n" for url in sitemap_urls
+        )
+        sitemap = (
+            '<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+            f"{sitemap_entries}"
+            "</urlset>\n"
+        )
+        (DIST / "sitemap.xml").write_text(sitemap, encoding="utf-8")
+    (DIST / "robots.txt").write_text("\n".join(robots_lines) + "\n", encoding="utf-8")
     print(f"Built Korean and English pages in {DIST.relative_to(ROOT)}")
     return 0
 

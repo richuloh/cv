@@ -15,6 +15,7 @@
   },
   "site": {
     "theme_color": "#123f43",
-    "show_photo": true
+    "show_photo": true,
+    "base_url": "https://richuloh.github.io/cv"
   }
 }
