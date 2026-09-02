@@ -1,0 +1,307 @@
+{
+  "lang": "en",
+  "name": "Richul Oh, M.D.",
+  "name_secondary": "오이철",
+  "role": "Clinical Faculty, Department of Ophthalmology",
+  "tagline": "Ophthalmologist · Retina & vitreous · Medical AI and clinical big data",
+  "affiliation": "Seoul National University Hospital",
+  "bio": "I practice ophthalmology with a subspecialty in retina and vitreous at Seoul National University Hospital. My research uses ultra-widefield fundus imaging, optical coherence tomography, and clinical big data to develop medical AI methods.",
+  "focus": [
+    "Retina & Vitreous",
+    "Ophthalmic Imaging",
+    "Medical AI",
+    "Clinical Big Data"
+  ],
+  "labels": {
+    "skip": "Skip to content",
+    "nav_about": "About",
+    "nav_experience": "Experience",
+    "nav_publications": "Publications",
+    "nav_research": "Research",
+    "nav_awards": "Awards",
+    "language": "한국어",
+    "download_pdf": "Download English CV",
+    "view_orcid": "View ORCID",
+    "about": "About",
+    "contact": "Contact",
+    "experience": "Appointments & Training",
+    "education": "Education",
+    "licenses": "Certification & Licensure",
+    "publications": "Publications",
+    "publications_note": "Automatically synchronized from the public ORCID record.",
+    "publications_total": "{count} works in total",
+    "publications_lead": "First & Corresponding Author",
+    "publications_co": "Co-authored",
+    "lead_star_note": "* First author (incl. co-first) or corresponding author (incl. co-corresponding)",
+    "research": "Research Projects",
+    "awards": "Awards",
+    "presentations": "Selected Presentations",
+    "publication_count": "ORCID works",
+    "award_count": "Awards",
+    "project_count": "Projects",
+    "present": "Present",
+    "last_synced": "ORCID last synchronized",
+    "source": "Data source",
+    "generated": "This CV is generated from the same data as the website.",
+    "email": "Email",
+    "address": "Address",
+    "scholar": "Google Scholar",
+    "orcid": "ORCID",
+    "footer_note": "Connecting retina care with clinically useful artificial intelligence."
+  },
+  "experience": [
+    {
+      "title": "Clinical Faculty, Retina & Vitreous",
+      "organization": "Seoul National University Hospital",
+      "period": "Mar 2026 – Present",
+      "detail": "Department of Ophthalmology"
+    },
+    {
+      "title": "Physician-Scientist Training Program",
+      "organization": "Seoul National University College of Medicine",
+      "period": "Sep 2025 – Present",
+      "detail": "Secretary"
+    },
+    {
+      "title": "Clinical Fellow, Retina & Vitreous",
+      "organization": "Seoul National University Hospital",
+      "period": "Apr 2024 – Feb 2026",
+      "detail": "Department of Ophthalmology"
+    },
+    {
+      "title": "Observership",
+      "organization": "Stanford University, Byers Eye Institute",
+      "period": "Aug 2023",
+      "detail": "Prof. Quan Dong Nguyen"
+    },
+    {
+      "title": "Resident, Ophthalmology",
+      "organization": "Seoul National University Hospital",
+      "period": "May 2020 – Feb 2024",
+      "detail": ""
+    },
+    {
+      "title": "Public Health Physician",
+      "organization": "Ministry of Health and Welfare, Republic of Korea",
+      "period": "Mar 2017 – Apr 2020",
+      "detail": ""
+    },
+    {
+      "title": "Intern",
+      "organization": "Seoul National University Hospital",
+      "period": "Mar 2016 – Feb 2017",
+      "detail": ""
+    }
+  ],
+  "education": [
+    {
+      "title": "Ph.D. Candidate in Ophthalmology",
+      "organization": "Seoul National University College of Medicine",
+      "period": "Mar 2023 – Present",
+      "detail": "Advisor: Kyu Hyung Park, M.D., Ph.D."
+    },
+    {
+      "title": "M.S. in Bioinformatics & Statistics",
+      "organization": "Korea National Open University",
+      "period": "Mar 2017 – Feb 2020",
+      "detail": ""
+    },
+    {
+      "title": "M.D.",
+      "organization": "Seoul National University College of Medicine",
+      "period": "Mar 2010 – Feb 2016",
+      "detail": ""
+    }
+  ],
+  "licenses": [
+    {
+      "title": "Board Certification in Ophthalmology (Korea)",
+      "period": "Mar 2024 – Present"
+    },
+    {
+      "title": "Certified Informatics Physician (Korea, CPBMI)",
+      "period": "Aug 2023 – Present"
+    },
+    {
+      "title": "Medical License (Korea)",
+      "period": "Feb 2016 – Present"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Ultra-precision robotic system for safe macular surgery and microsurgical manipulation",
+      "sponsor": "Korea Medical Device Development Fund",
+      "period": "May 2026 – Apr 2029",
+      "role": "Co-investigator",
+      "detail": "PI Young Bong Bang"
+    },
+    {
+      "title": "Spatiotemporal registration of large-scale longitudinal fundus images for microvascular degeneration trajectories",
+      "sponsor": "KMI Research Grant",
+      "period": "May 2026 – Apr 2027",
+      "role": "Principal investigator",
+      "detail": ""
+    },
+    {
+      "title": "Foundation model for ultra-widefield fundus photography",
+      "sponsor": "Seoul National University R&DB Foundation",
+      "period": "Dec 2024 – Nov 2026",
+      "role": "Principal investigator",
+      "detail": ""
+    },
+    {
+      "title": "Clinical validation of AI-assisted fundus image interpretation using health-screening data",
+      "sponsor": "VUNO Sponsored Research",
+      "period": "Jun 2026 – Jun 2027",
+      "role": "Principal investigator",
+      "detail": ""
+    },
+    {
+      "title": "Multimodal foundation models for general and efficient ophthalmic disease detection",
+      "sponsor": "Korean Retina Foundation",
+      "period": "May 2024 – Aug 2026",
+      "role": "Co-investigator",
+      "detail": "PI Min Sagong"
+    },
+    {
+      "title": "UWF-GPT: Visual question answering for ultra-widefield fundus photography using fine-tuned large language models",
+      "sponsor": "Seoul National University Hospital Research Fund",
+      "period": "Sep 2024 – Aug 2025",
+      "role": "Co-investigator",
+      "detail": "PI Seungwoo Choi"
+    },
+    {
+      "title": "On-Premise Large Language Model Advancement Training and Prospective Real-World Validation for Intelligent Processing of Ophthalmology Medical Records and Clinical Documentation Support",
+      "sponsor": "Seoul National University Hospital Research Fund",
+      "period": "Sep 2026 – Aug 2027",
+      "role": "Principal investigator",
+      "detail": ""
+    }
+  ],
+  "awards": [
+    {
+      "title": "Early Career Clinician Scientist Award",
+      "organization": "Association for Research in Vision and Ophthalmology",
+      "date": "May 2026",
+      "detail": ""
+    },
+    {
+      "title": "Best Oral Presentation, Gold Award",
+      "organization": "Korean Society of Medical AI",
+      "date": "Oct 2025",
+      "detail": ""
+    },
+    {
+      "title": "Grand Prize (Team), Datathon",
+      "organization": "Medical AI Center & Seoul National University Bundang Hospital",
+      "date": "Oct 2025",
+      "detail": "Medical Auto-documentation with Real-World Structuring · Team: Richul Oh, Eunjin Hong, Juae Kim"
+    },
+    {
+      "title": "Best Fellow Presentation Award",
+      "organization": "Korean Retina Society Winter Symposium",
+      "date": "Feb 2025",
+      "detail": ""
+    },
+    {
+      "title": "Best Resident of the Year",
+      "organization": "Department of Ophthalmology, Seoul National University Hospital",
+      "date": "Jan 2024",
+      "detail": ""
+    },
+    {
+      "title": "Best Resident at Boramae Hospital",
+      "organization": "Seoul Metropolitan Government–Seoul National University Boramae Medical Center",
+      "date": "Dec 2023",
+      "detail": ""
+    },
+    {
+      "title": "28th Academic Award, Young Medical Scholar Award",
+      "organization": "Seoul Medical Association",
+      "date": "Sep 2023",
+      "detail": ""
+    },
+    {
+      "title": "Best Resident of the Year",
+      "organization": "Department of Ophthalmology, Seoul National University Hospital",
+      "date": "Jan 2023",
+      "detail": ""
+    },
+    {
+      "title": "Best Presenter (Glaucoma)",
+      "organization": "127th Annual Meeting of the Korean Ophthalmological Society",
+      "date": "Oct 2022",
+      "detail": ""
+    },
+    {
+      "title": "First Prize, Datathon",
+      "organization": "Seoul National University Bundang Hospital",
+      "date": "Mar 2022",
+      "detail": "Task: Development of an AI model predicting 24-hour cardiac arrest risk using in-patient electronic medical record data"
+    },
+    {
+      "title": "Multiple Medical AI Challenge Awards",
+      "organization": "MAIC",
+      "date": "Dec 2021",
+      "detail": "Robotic Surgery AI Challenge, 1st Prize\nCDM AI Challenge (Forecasting AKI), 2nd Prize\nAorta Quantification Using Normal PET-CT Images, 3rd Prize\nVoice AI Challenge, 3rd Prize\n(all team; Team: Jaewon Choi, Richul Oh)"
+    }
+  ],
+  "presentations": [
+    {
+      "year": "2026",
+      "venue": "ARVO · Denver, Colorado, U.S.A.",
+      "type": "Oral presentation",
+      "dates": "May 3–7, 2026",
+      "title": "MM-Fundus-CLIP: Development of a Multi-Modality Fundus Foundation Model Leveraging Large Language Model and Contrastive Language-Image Pretraining"
+    },
+    {
+      "year": "2026",
+      "venue": "APAO · Hong Kong, China",
+      "type": "Oral presentation",
+      "dates": "Feb 5–8, 2026",
+      "title": "Development of a Multi-Modality Fundus Foundation Model Leveraging Large Language Model and Contrastive Language-Image Pretraining"
+    },
+    {
+      "year": "2025",
+      "venue": "134th Annual Meeting of the Korean Ophthalmological Society",
+      "type": "Oral presentation",
+      "dates": "Nov 14–16, 2025",
+      "title": "MM-Fundus-CLIP: Development of a Multi-Modality Fundus Foundation Model"
+    },
+    {
+      "year": "2025",
+      "venue": "Korean Society of Medical AI Annual Meeting",
+      "type": "Oral presentation",
+      "dates": "Oct 24–25, 2025",
+      "title": "MM-Fundus-CLIP: Development of a Multi-Modality Fundus Foundation Model"
+    },
+    {
+      "year": "2025",
+      "venue": "ASRS · Long Beach, California, U.S.A.",
+      "type": "Poster",
+      "dates": "Jul 30 – Aug 2, 2025",
+      "title": "UWF-FM: Masked Autoencoder-Based Foundation Model for Ultra-Widefield Fundus Images"
+    },
+    {
+      "year": "2024",
+      "venue": "ARVO · Seattle, Washington, U.S.A.",
+      "type": "Poster",
+      "dates": "May 5–9, 2024",
+      "title": "Prediction of Axial Length from Macular Optical Coherence Tomography Using a Deep Learning Model"
+    },
+    {
+      "year": "2023",
+      "venue": "16th Korea-China-Japan Joint Meeting of Ophthalmologists",
+      "type": "Oral presentation",
+      "dates": "Nov 24–25, 2023",
+      "title": "Estimation of Post-operative Prediction Errors in Cataract Surgery Using Explainable Machine Learning"
+    },
+    {
+      "year": "2022",
+      "venue": "ARVO · Denver, Colorado, U.S.A.",
+      "type": "Poster",
+      "dates": "May 1–4, 2022",
+      "title": "Predictive Modeling of Long-Term Glaucoma Progression Based on Systemic Data in the Electronic Medical Record"
+    }
+  ]
+}

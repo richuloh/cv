@@ -1,0 +1,1108 @@
+{
+  "orcid_id": "0000-0003-3221-5121",
+  "orcid_url": "https://orcid.org/0000-0003-3221-5121",
+  "api_record_url": "https://pub.orcid.org/v3.0/0000-0003-3221-5121/record",
+  "name": {
+    "given": "Richul",
+    "family": "Oh",
+    "credit": ""
+  },
+  "last_synced_utc": "2026-09-01T09:32:18Z",
+  "record_last_modified_utc": "2026-08-30T00:02:21.169000Z",
+  "works": [
+    {
+      "put_code": 225212599,
+      "title": "Evaluating Artificial Intelligence as a First-Pass Reader in Fundus Photograph Screening: A Multireader Workflow Validation Study",
+      "journal": "Diagnostics",
+      "type": "journal-article",
+      "date": {
+        "year": "2026",
+        "month": "08",
+        "day": ""
+      },
+      "contributors": [
+        {
+          "name": "Jihyeon Baek",
+          "role": "author",
+          "sequence": "first"
+        },
+        {
+          "name": "Richul Oh",
+          "role": "author",
+          "sequence": "additional"
+        },
+        {
+          "name": "Doohyun Park",
+          "role": "author",
+          "sequence": "additional"
+        },
+        {
+          "name": "Kunho Bae",
+          "role": "author",
+          "sequence": "additional"
+        }
+      ],
+      "external_ids": {
+        "doi": {
+          "value": "10.3390/diagnostics16172707",
+          "url": "https://doi.org/10.3390/diagnostics16172707"
+        }
+      },
+      "url": "https://doi.org/10.3390/diagnostics16172707",
+      "source": "Multidisciplinary Digital Publishing Institute"
+    },
+    {
+      "put_code": 209976616,
+      "title": "Machine Learning-based Identification of Eyes With a History of Previous Myopic Laser Vision Correction.",
+      "journal": "Journal of refractive surgery (Thorofare, N.J. : 1995)",
+      "type": "journal-article",
+      "date": {
+        "year": "2025",
+        "month": "11",
+        "day": "01"
+      },
+      "contributors": [
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Yoon CH",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Hyon JY",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Jeon HS",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "41212958",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41212958"
+        },
+        "doi": {
+          "value": "10.3928/1081597x-20250826-01",
+          "url": "https://doi.org/10.3928/1081597x-20250826-01"
+        }
+      },
+      "url": "https://doi.org/10.3928/1081597x-20250826-01",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 209976581,
+      "title": "Deep learning-based automatic image quality assessment in ultra-widefield fundus photographs.",
+      "journal": "BMJ open",
+      "type": "journal-article",
+      "date": {
+        "year": "2025",
+        "month": "05",
+        "day": "21"
+      },
+      "contributors": [
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Park UC",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Park KH",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Park SJ",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Yoon CK",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "40398939",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40398939"
+        },
+        "pmc": {
+          "value": "PMC12096960",
+          "url": "https://europepmc.org/article/pmc/PMC12096960"
+        },
+        "doi": {
+          "value": "10.1136/bmjopen-2025-100058",
+          "url": "https://doi.org/10.1136/bmjopen-2025-100058"
+        }
+      },
+      "url": "https://doi.org/10.1136/bmjopen-2025-100058",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 209976601,
+      "title": "Predictive modeling of rapid glaucoma progression based on systemic data from electronic medical records.",
+      "journal": "Scientific reports",
+      "type": "journal-article",
+      "date": {
+        "year": "2025",
+        "month": "04",
+        "day": "16"
+      },
+      "contributors": [
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kim H",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kim TW",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Lee EJ",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "40240525",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40240525"
+        },
+        "pmc": {
+          "value": "PMC12003650",
+          "url": "https://europepmc.org/article/pmc/PMC12003650"
+        },
+        "doi": {
+          "value": "10.1038/s41598-025-97344-1",
+          "url": "https://doi.org/10.1038/s41598-025-97344-1"
+        }
+      },
+      "url": "https://doi.org/10.1038/s41598-025-97344-1",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 209976585,
+      "title": "Longitudinal changes in ocular biometry and their effect on intraocular lens power calculation accuracy in cataract patients.",
+      "journal": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+      "type": "journal-article",
+      "date": {
+        "year": "2025",
+        "month": "02",
+        "day": "28"
+      },
+      "contributors": [
+        {
+          "name": "Yun YI",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Oh JY",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Choi HJ",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kim MK",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Yoon CH",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "40019524",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40019524"
+        },
+        "pmc": {
+          "value": "PMC12373673",
+          "url": "https://europepmc.org/article/pmc/PMC12373673"
+        },
+        "doi": {
+          "value": "10.1007/s00417-025-06775-z",
+          "url": "https://doi.org/10.1007/s00417-025-06775-z"
+        }
+      },
+      "url": "https://doi.org/10.1007/s00417-025-06775-z",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 209976574,
+      "title": "Evaluation of prediction errors in nine intraocular lens calculation formulas using an explainable machine learning model.",
+      "journal": "BMC ophthalmology",
+      "type": "journal-article",
+      "date": {
+        "year": "2024",
+        "month": "12",
+        "day": "19"
+      },
+      "contributors": [
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Oh JY",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Choi HJ",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kim MK",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Yoon CH",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "39696028",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39696028"
+        },
+        "pmc": {
+          "value": "PMC11657498",
+          "url": "https://europepmc.org/article/pmc/PMC11657498"
+        },
+        "doi": {
+          "value": "10.1186/s12886-024-03801-2",
+          "url": "https://doi.org/10.1186/s12886-024-03801-2"
+        }
+      },
+      "url": "https://doi.org/10.1186/s12886-024-03801-2",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 209976571,
+      "title": "Prediction of Axial Length From Macular Optical Coherence Tomography Using Deep Learning Model.",
+      "journal": "Translational vision science & technology",
+      "type": "journal-article",
+      "date": {
+        "year": "2024",
+        "month": "09",
+        "day": "01"
+      },
+      "contributors": [
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kang M",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Ahn J",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Lee EK",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Bae K",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Park UC",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Park KH",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Yoon CK",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "39264604",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39264604"
+        },
+        "pmc": {
+          "value": "PMC11407480",
+          "url": "https://europepmc.org/article/pmc/PMC11407480"
+        },
+        "doi": {
+          "value": "10.1167/tvst.13.9.14",
+          "url": "https://doi.org/10.1167/tvst.13.9.14"
+        }
+      },
+      "url": "https://doi.org/10.1167/tvst.13.9.14",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 209976509,
+      "title": "A Preliminary Evaluation of the Diagnostic Performance of a Smartphone-Based Machine Learning-Assisted System for Evaluation of Clinical Activity Score in Digital Images of Thyroid-Associated Orbitopathy.",
+      "journal": "Thyroid : official journal of the American Thyroid Association",
+      "type": "journal-article",
+      "date": {
+        "year": "2024",
+        "month": "05",
+        "day": "02"
+      },
+      "contributors": [
+        {
+          "name": "Shin K",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Choung H",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Lee MJ",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kim J",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Lee GM",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kim S",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kim JH",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Park J",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Lee SM",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Park J",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kim N",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Moon JH",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "38623815",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38623815"
+        },
+        "doi": {
+          "value": "10.1089/thy.2023.0621",
+          "url": "https://doi.org/10.1089/thy.2023.0621"
+        }
+      },
+      "url": "https://doi.org/10.1089/thy.2023.0621",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 209976526,
+      "title": "Quantitative microvascular analysis in different stages of retinitis pigmentosa using optical coherence tomography angiography.",
+      "journal": "Scientific reports",
+      "type": "journal-article",
+      "date": {
+        "year": "2024",
+        "month": "02",
+        "day": "26"
+      },
+      "contributors": [
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Bae K",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Yoon CK",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Park UC",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Park KH",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Lee EK",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "38409198",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38409198"
+        },
+        "pmc": {
+          "value": "PMC10897439",
+          "url": "https://europepmc.org/article/pmc/PMC10897439"
+        },
+        "doi": {
+          "value": "10.1038/s41598-024-55070-0",
+          "url": "https://doi.org/10.1038/s41598-024-55070-0"
+        }
+      },
+      "url": "https://doi.org/10.1038/s41598-024-55070-0",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 209976604,
+      "title": "Longer axial length is associated with better prediction for refractive error after sutureless flanged intrascleral fixation of intraocular lens.",
+      "journal": "Eye (London, England)",
+      "type": "journal-article",
+      "date": {
+        "year": "2023",
+        "month": "11",
+        "day": "20"
+      },
+      "contributors": [
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Bae K",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Yoon CK",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Yoon CH",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Lee EK",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Lee EK",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Park UC",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "37985727",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37985727"
+        },
+        "pmc": {
+          "value": "PMC10966000",
+          "url": "https://europepmc.org/article/pmc/PMC10966000"
+        },
+        "doi": {
+          "value": "10.1038/s41433-023-02819-y",
+          "url": "https://doi.org/10.1038/s41433-023-02819-y"
+        }
+      },
+      "url": "https://doi.org/10.1038/s41433-023-02819-y",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 209976536,
+      "title": "Whole genome sequencing for inherited retinal diseases in the Korean National Project of Bio Big Data.",
+      "journal": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+      "type": "journal-article",
+      "date": {
+        "year": "2023",
+        "month": "11",
+        "day": "10"
+      },
+      "contributors": [
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Woo SJ",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Joo K",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "37947821",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37947821"
+        },
+        "doi": {
+          "value": "10.1007/s00417-023-06309-5",
+          "url": "https://doi.org/10.1007/s00417-023-06309-5"
+        }
+      },
+      "url": "https://doi.org/10.1007/s00417-023-06309-5",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 209976498,
+      "title": "Accuracy of the PEARL-DGS Formula for Intraocular Lens Power Calculation in Post-Myopic Laser Refractive Corneal Surgery Eyes.",
+      "journal": "American journal of ophthalmology",
+      "type": "journal-article",
+      "date": {
+        "year": "2023",
+        "month": "10",
+        "day": "31"
+      },
+      "contributors": [
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Hyon JY",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Jeon HS",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "37914063",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37914063"
+        },
+        "doi": {
+          "value": "10.1016/j.ajo.2023.10.020",
+          "url": "https://doi.org/10.1016/j.ajo.2023.10.020"
+        }
+      },
+      "url": "https://doi.org/10.1016/j.ajo.2023.10.020",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 209976506,
+      "title": "SS-OCT-based ocular biometry in an adult Korean population with cataract.",
+      "journal": "Journal of cataract and refractive surgery",
+      "type": "journal-article",
+      "date": {
+        "year": "2023",
+        "month": "05",
+        "day": "01"
+      },
+      "contributors": [
+        {
+          "name": "Kim S",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kim MK",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Yoon CH",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "36700930",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36700930"
+        },
+        "doi": {
+          "value": "10.1097/j.jcrs.0000000000001135",
+          "url": "https://doi.org/10.1097/j.jcrs.0000000000001135"
+        }
+      },
+      "url": "https://doi.org/10.1097/j.jcrs.0000000000001135",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 209976447,
+      "title": "Deep Learning-based Prediction of Axial Length Using Ultra-widefield Fundus Photography.",
+      "journal": "Korean journal of ophthalmology : KJO",
+      "type": "journal-article",
+      "date": {
+        "year": "2023",
+        "month": "02",
+        "day": "09"
+      },
+      "contributors": [
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Lee EK",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Bae K",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Park UC",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Yu HG",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Yoon CK",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "36758539",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36758539"
+        },
+        "pmc": {
+          "value": "PMC10151162",
+          "url": "https://europepmc.org/article/pmc/PMC10151162"
+        },
+        "doi": {
+          "value": "10.3341/kjo.2022.0059",
+          "url": "https://doi.org/10.3341/kjo.2022.0059"
+        }
+      },
+      "url": "https://doi.org/10.3341/kjo.2022.0059",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 209976481,
+      "title": "DETECTION AND LOCALIZATION OF RETINAL BREAKS IN ULTRAWIDEFIELD FUNDUS PHOTOGRAPHY USING a YOLO v3 ARCHITECTURE-BASED DEEP LEARNING MODEL.",
+      "journal": "Retina (Philadelphia, Pa.)",
+      "type": "journal-article",
+      "date": {
+        "year": "2022",
+        "month": "10",
+        "day": "01"
+      },
+      "contributors": [
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Oh BL",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Lee EK",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Park UC",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Yu HG",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Yoon CK",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "36129265",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36129265"
+        },
+        "doi": {
+          "value": "10.1097/iae.0000000000003550",
+          "url": "https://doi.org/10.1097/iae.0000000000003550"
+        }
+      },
+      "url": "https://doi.org/10.1097/iae.0000000000003550",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 209976534,
+      "title": "Hemisphere opposite to central retinal vascular trunk deviation is earlier affected by glaucomatous damage in primary angle-closure glaucoma.",
+      "journal": "Acta ophthalmologica",
+      "type": "journal-article",
+      "date": {
+        "year": "2022",
+        "month": "09",
+        "day": "22"
+      },
+      "contributors": [
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Lee KM",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kim M",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Oh S",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kim SH",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "36134905",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36134905"
+        },
+        "doi": {
+          "value": "10.1111/aos.15258",
+          "url": "https://doi.org/10.1111/aos.15258"
+        }
+      },
+      "url": "https://doi.org/10.1111/aos.15258",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 209976431,
+      "title": "Comparison of ocular biometric measurements in patients with cataract using three swept-source optical coherence tomography devices.",
+      "journal": "BMC ophthalmology",
+      "type": "journal-article",
+      "date": {
+        "year": "2021",
+        "month": "01",
+        "day": "27"
+      },
+      "contributors": [
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Oh JY",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Choi HJ",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kim MK",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Yoon CH",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "33504333",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33504333"
+        },
+        "pmc": {
+          "value": "PMC7839224",
+          "url": "https://europepmc.org/article/pmc/PMC7839224"
+        },
+        "doi": {
+          "value": "10.1186/s12886-021-01826-5",
+          "url": "https://doi.org/10.1186/s12886-021-01826-5"
+        }
+      },
+      "url": "https://doi.org/10.1186/s12886-021-01826-5",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 209976478,
+      "title": "Optical coherence tomography angiographic findings of lamellar macular hole: comparisons between tractional and degenerative subtypes.",
+      "journal": "Scientific reports",
+      "type": "journal-article",
+      "date": {
+        "year": "2020",
+        "month": "08",
+        "day": "07"
+      },
+      "contributors": [
+        {
+          "name": "Yeo JH",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Lee JY",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kim JG",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Yoon YH",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kim YJ",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "32770021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32770021"
+        },
+        "pmc": {
+          "value": "PMC7414911",
+          "url": "https://europepmc.org/article/pmc/PMC7414911"
+        },
+        "doi": {
+          "value": "10.1038/s41598-020-70254-0",
+          "url": "https://doi.org/10.1038/s41598-020-70254-0"
+        }
+      },
+      "url": "https://doi.org/10.1038/s41598-020-70254-0",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 209976436,
+      "title": "Choroidal Neovascularization Secondary to Central Serous Chorioretinopathy: OCT Angiography Findings and Risk Factors.",
+      "journal": "Journal of ophthalmology",
+      "type": "journal-article",
+      "date": {
+        "year": "2020",
+        "month": "02",
+        "day": "07"
+      },
+      "contributors": [
+        {
+          "name": "Yeo JH",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Oh R",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kim YJ",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kim JG",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Yoon YH",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Lee JY",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "pmid": {
+          "value": "32089870",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32089870"
+        },
+        "pmc": {
+          "value": "PMC7029265",
+          "url": "https://europepmc.org/article/pmc/PMC7029265"
+        },
+        "doi": {
+          "value": "10.1155/2020/7217906",
+          "url": "https://doi.org/10.1155/2020/7217906"
+        }
+      },
+      "url": "https://doi.org/10.1155/2020/7217906",
+      "source": "Richul Oh"
+    }
+  ],
+  "affiliations": {
+    "employment": [
+      {
+        "organization": "Seoul National University Hospital",
+        "role": "Clinical Faculty",
+        "department": "Ophthalmology",
+        "start": "2026-03",
+        "end": ""
+      },
+      {
+        "organization": "Seoul National University Hospital",
+        "role": "",
+        "department": "Ophthalmology",
+        "start": "2020-05-01",
+        "end": ""
+      },
+      {
+        "organization": "Ministry of Health and Welfare",
+        "role": "Public health docter",
+        "department": "",
+        "start": "2017-03-01",
+        "end": "2020-04-14"
+      },
+      {
+        "organization": "Seoul National University Hospital",
+        "role": "Intern",
+        "department": "",
+        "start": "2016-03-01",
+        "end": "2017-02-28"
+      }
+    ],
+    "education": [],
+    "qualification": [
+      {
+        "organization": "Korea National Open University",
+        "role": "Master's degree",
+        "department": "Bioinformatics and Statistics",
+        "start": "2017-03-01",
+        "end": "2020-02-28"
+      },
+      {
+        "organization": "Seoul National University College of Medicine",
+        "role": "",
+        "department": "",
+        "start": "2010-03-01",
+        "end": "2016-02-28"
+      }
+    ]
+  }
+}

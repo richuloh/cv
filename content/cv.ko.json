@@ -1,0 +1,307 @@
+{
+  "lang": "ko",
+  "name": "오이철",
+  "name_secondary": "Richul Oh, M.D.",
+  "role": "서울대학교병원 안과 진료교수",
+  "tagline": "안과 전문의 · 망막·유리체 전공 · 의료인공지능 및 빅데이터 연구",
+  "affiliation": "서울대학교병원 안과",
+  "bio": "서울대학교병원 안과에서 망막·유리체 질환을 진료하고 있습니다. 초광각 안저영상, 빛간섭단층촬영 및 임상 빅데이터를 활용한 의료인공지능 연구를 수행하고 있습니다.",
+  "focus": [
+    "망막·유리체",
+    "안과 영상",
+    "의료인공지능",
+    "임상 빅데이터"
+  ],
+  "labels": {
+    "skip": "본문으로 건너뛰기",
+    "nav_about": "소개",
+    "nav_experience": "경력",
+    "nav_publications": "논문",
+    "nav_research": "연구",
+    "nav_awards": "수상",
+    "language": "English",
+    "download_pdf": "한글 CV PDF",
+    "view_orcid": "ORCID 보기",
+    "about": "소개",
+    "contact": "연락처",
+    "experience": "경력",
+    "education": "학력",
+    "licenses": "자격 및 면허",
+    "publications": "논문",
+    "publications_note": "ORCID 공개 레코드에서 자동으로 동기화됩니다.",
+    "publications_total": "전체 {count}편",
+    "publications_lead": "주저자 논문",
+    "publications_co": "공저자 논문",
+    "lead_star_note": "* 주저자(제1저자·공동 제1저자) 또는 교신저자(공동 교신저자) 논문",
+    "research": "연구과제",
+    "awards": "수상",
+    "presentations": "학술 발표",
+    "publication_count": "ORCID 논문",
+    "award_count": "수상",
+    "project_count": "연구과제",
+    "present": "현재",
+    "last_synced": "ORCID 최종 동기화",
+    "source": "데이터 출처",
+    "generated": "이 CV는 웹사이트와 동일한 데이터로 자동 생성되었습니다.",
+    "email": "이메일",
+    "address": "주소",
+    "scholar": "Google Scholar",
+    "orcid": "ORCID",
+    "footer_note": "망막 진료와 의료 인공지능 연구를 연결합니다."
+  },
+  "experience": [
+    {
+      "title": "안과 진료교수",
+      "organization": "서울대학교병원",
+      "period": "2026.03 – 현재",
+      "detail": "망막·유리체"
+    },
+    {
+      "title": "간사",
+      "organization": "서울의대 의사과학자양성사업단",
+      "period": "2025.09 – 현재",
+      "detail": "의사과학자 양성 프로그램"
+    },
+    {
+      "title": "망막 전임의",
+      "organization": "서울대학교병원",
+      "period": "2024.04 – 2026.02",
+      "detail": "망막·유리체 세부전공"
+    },
+    {
+      "title": "옵저버십",
+      "organization": "Stanford University, Byers Eye Institute",
+      "period": "2023.08",
+      "detail": "Prof. Quan Dong Nguyen"
+    },
+    {
+      "title": "안과 전공의",
+      "organization": "서울대학교병원",
+      "period": "2020.05 – 2024.02",
+      "detail": ""
+    },
+    {
+      "title": "공중보건의사",
+      "organization": "보건복지부",
+      "period": "2017.03 – 2020.04",
+      "detail": ""
+    },
+    {
+      "title": "인턴",
+      "organization": "서울대학교병원",
+      "period": "2016.03 – 2017.02",
+      "detail": ""
+    }
+  ],
+  "education": [
+    {
+      "title": "안과학 박사과정 수료",
+      "organization": "서울대학교 의과대학",
+      "period": "2023.03 – 현재",
+      "detail": "지도교수: 박규형"
+    },
+    {
+      "title": "바이오정보통계학 석사",
+      "organization": "한국방송통신대학교",
+      "period": "2017.03 – 2020.02",
+      "detail": ""
+    },
+    {
+      "title": "의학",
+      "organization": "서울대학교 의과대학",
+      "period": "2010.03 – 2016.02",
+      "detail": ""
+    }
+  ],
+  "licenses": [
+    {
+      "title": "안과 전문의",
+      "period": "2024.03 – 현재"
+    },
+    {
+      "title": "정보의학인증의(CPBMI)",
+      "period": "2023.08 – 현재"
+    },
+    {
+      "title": "의사 면허",
+      "period": "2016.02 – 현재"
+    }
+  ],
+  "projects": [
+    {
+      "title": "황반 수술의 안전성 확보 및 미세 조작을 위한 초정밀 로봇 시스템 개발",
+      "sponsor": "범부처전주기의료기기연구개발사업",
+      "period": "2026.05 – 2029.04",
+      "role": "공동연구자",
+      "detail": "PI 방영봉"
+    },
+    {
+      "title": "대규모 장기 종단 안저 영상의 시공간 정합 분석을 통한 미세혈관 퇴행 궤적 및 병태생리 기전 규명",
+      "sponsor": "KMI 연구과제",
+      "period": "2026.05 – 2027.04",
+      "role": "연구책임자",
+      "detail": ""
+    },
+    {
+      "title": "초광각안저사진 파운데이션 모델",
+      "sponsor": "서울대학교 산학협력단 첨단의약학연구과제",
+      "period": "2024.12 – 2026.11",
+      "role": "연구책임자",
+      "detail": ""
+    },
+    {
+      "title": "건강검진 데이터를 활용한 안저영상 판독 보조 소프트웨어의 임상적 유효성 검증",
+      "sponsor": "VUNO 위탁연구과제",
+      "period": "2026.06 – 2027.06",
+      "role": "연구책임자",
+      "detail": ""
+    },
+    {
+      "title": "범용적이고 효율적인 질병 감지를 위한 안과영역의 멀티모달 파운데이션 모델 개발",
+      "sponsor": "망막학발전재단",
+      "period": "2024.05 – 2026.08",
+      "role": "공동연구자",
+      "detail": "PI 사공민"
+    },
+    {
+      "title": "UWF-GPT: 거대언어모델 파인튜닝을 이용한 초광각안저사진 문답형 인공지능 모델 개발",
+      "sponsor": "서울대학교병원 원내과제",
+      "period": "2024.09 – 2025.08",
+      "role": "공동연구자",
+      "detail": "PI 최승우"
+    },
+    {
+      "title": "안과 의무기록의 지능형 처리 및 임상문서 작성지원을 위한 On-Premise 대규모언어모델 고도화 학습과 전향적 실사용 검증",
+      "sponsor": "서울대학교병원 원내과제",
+      "period": "2026.09 – 2027.08",
+      "role": "연구책임자",
+      "detail": ""
+    }
+  ],
+  "awards": [
+    {
+      "title": "ARVO Early Career Clinician Scientist Award",
+      "organization": "Association for Research in Vision and Ophthalmology",
+      "date": "2026.05",
+      "detail": ""
+    },
+    {
+      "title": "우수구연 금상",
+      "organization": "대한의료인공지능학회",
+      "date": "2025.10",
+      "detail": ""
+    },
+    {
+      "title": "데이터톤 대상 (팀)",
+      "organization": "의료인공지능센터·분당서울대학교병원",
+      "date": "2025.10",
+      "detail": "Medical Auto-documentation with Real-World Structuring · 팀: 오이철, 홍은진, 김주애"
+    },
+    {
+      "title": "동계심포지엄 최우수 발표상",
+      "organization": "한국망막학회",
+      "date": "2025.02",
+      "detail": ""
+    },
+    {
+      "title": "최우수전공의 상",
+      "organization": "서울대학교 안과학교실",
+      "date": "2024.01",
+      "detail": ""
+    },
+    {
+      "title": "우수전공의 상",
+      "organization": "서울특별시보라매병원",
+      "date": "2023.12",
+      "detail": ""
+    },
+    {
+      "title": "제28회 의학상 젊은의학자 논문상",
+      "organization": "서울특별시의사회",
+      "date": "2023.09",
+      "detail": ""
+    },
+    {
+      "title": "우수전공의 상",
+      "organization": "서울대학교 안과학교실",
+      "date": "2023.01",
+      "detail": ""
+    },
+    {
+      "title": "학술대회 우수 구연상 (녹내장)",
+      "organization": "대한안과학회",
+      "date": "2022.10",
+      "detail": ""
+    },
+    {
+      "title": "데이터톤 최우수상 (개인)",
+      "organization": "분당서울대학교병원",
+      "date": "2022.03",
+      "detail": "Task: 입원 환자 전자의무기록 데이터를 이용한 24시간 이내 심정지 위험 예측 인공지능 모델 개발"
+    },
+    {
+      "title": "Medical AI Challenge 다수 수상",
+      "organization": "MAIC",
+      "date": "2021.12",
+      "detail": "Robotic Surgery AI Challenge 1위\nCDM AI Challenge(Forecasting AKI) 2위\nAorta Quantification(정상 PET-CT 영상) 3위\nVoice AI Challenge 3위\n(모두 팀 · 팀: 최재원, 오이철)"
+    }
+  ],
+  "presentations": [
+    {
+      "year": "2026",
+      "venue": "ARVO · Denver, Colorado, U.S.A.",
+      "type": "구연",
+      "dates": "2026.05.03 – 05.07",
+      "title": "MM-Fundus-CLIP: Development of a Multi-Modality Fundus Foundation Model Leveraging Large Language Model and Contrastive Language-Image Pretraining"
+    },
+    {
+      "year": "2026",
+      "venue": "APAO · Hong Kong, China",
+      "type": "구연",
+      "dates": "2026.02.05 – 02.08",
+      "title": "Development of a Multi-Modality Fundus Foundation Model Leveraging Large Language Model and Contrastive Language-Image Pretraining"
+    },
+    {
+      "year": "2025",
+      "venue": "대한안과학회 제134회 학술대회",
+      "type": "구연",
+      "dates": "2025.11.14 – 11.16",
+      "title": "MM-Fundus-CLIP: Development of Multi-Modality Fundus Foundation Model"
+    },
+    {
+      "year": "2025",
+      "venue": "대한의료인공지능학회 정기학술대회",
+      "type": "구연",
+      "dates": "2025.10.24 – 10.25",
+      "title": "MM-Fundus-CLIP: Development of Multi-Modality Fundus Foundation Model"
+    },
+    {
+      "year": "2025",
+      "venue": "ASRS · Long Beach, California, U.S.A.",
+      "type": "포스터",
+      "dates": "2025.07.30 – 08.02",
+      "title": "UWF-FM: Masked Autoencoder-Based Foundation Model for Ultra-Widefield Fundus Images"
+    },
+    {
+      "year": "2024",
+      "venue": "ARVO · Seattle, Washington, U.S.A.",
+      "type": "포스터",
+      "dates": "2024.05.05 – 05.09",
+      "title": "Prediction of Axial Length from Macular Optical Coherence Tomography Using a Deep Learning Model"
+    },
+    {
+      "year": "2023",
+      "venue": "16th Korea-China-Japan Joint Meeting of Ophthalmologists",
+      "type": "구연",
+      "dates": "2023.11.24 – 11.25",
+      "title": "Estimation of Post-operative Prediction Errors in Cataract Surgery Using Explainable Machine Learning"
+    },
+    {
+      "year": "2022",
+      "venue": "ARVO · Denver, Colorado, U.S.A.",
+      "type": "포스터",
+      "dates": "2022.05.01 – 05.04",
+      "title": "Predictive Modeling of Long-Term Glaucoma Progression Based on Systemic Data in the Electronic Medical Record"
+    }
+  ]
+}

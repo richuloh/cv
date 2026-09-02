@@ -1,0 +1,20 @@
+{
+  "orcid_id": "0000-0003-3221-5121",
+  "photo": "assets/profile.jpg",
+  "contact": {
+    "emails": [
+      "rcoh91@naver.com",
+      "rcoh91@gmail.com"
+    ],
+    "address_ko": "서울특별시 종로구 대학로 101, 서울대학교병원 안과 (03080)",
+    "address_en": "Department of Ophthalmology, Seoul National University Hospital, 101 Daehak-ro, Jongno-gu, Seoul 03080, Republic of Korea"
+  },
+  "links": {
+    "orcid": "https://orcid.org/0000-0003-3221-5121",
+    "google_scholar": "https://scholar.google.com/citations?user=toh80dAAAAAJ"
+  },
+  "site": {
+    "theme_color": "#123f43",
+    "show_photo": true
+  }
+}

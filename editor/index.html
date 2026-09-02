@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Richul Oh CV 편집기</title>
+  <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand"><span class="brand-mark">RO</span><div><strong>CV 편집기</strong><small>Richul Oh · Local only</small></div></div>
+      <div class="top-actions">
+        <span id="save-state" class="save-state">불러오는 중…</span>
+        <button id="export-button" class="button button-secondary" type="button">백업 다운로드</button>
+        <button id="save-button" class="button button-primary" type="button" disabled>저장하고 다시 만들기</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="app-shell">
+    <aside class="sidebar">
+      <p class="sidebar-label">입력할 내용</p>
+      <nav id="tabs" class="tabs" aria-label="편집 영역">
+        <button class="tab is-active" type="button" data-tab="profile"><span>01</span>공통 정보</button>
+        <button class="tab" type="button" data-tab="ko"><span>02</span>한글 CV</button>
+        <button class="tab" type="button" data-tab="en"><span>03</span>English CV</button>
+        <button class="tab" type="button" data-tab="publications"><span>04</span>논문 표시</button>
+      </nav>
+      <div class="sidebar-help">
+        <strong>어떻게 저장되나요?</strong>
+        <p>저장할 때 기존 파일은 자동 백업됩니다. 이어서 ORCID, 웹페이지, PDF가 한 번에 갱신됩니다.</p>
+      </div>
+      <div class="preview-links">
+        <a href="/dist/" target="_blank">한글 미리보기 ↗</a>
+        <a href="/dist/en/" target="_blank">English preview ↗</a>
+        <a href="/dist/downloads/richul-oh-cv-ko.pdf" target="_blank">한글 PDF ↗</a>
+        <a href="/dist/downloads/richul-oh-cv-en.pdf" target="_blank">English PDF ↗</a>
+      </div>
+    </aside>
+
+    <main class="editor-main">
+      <section class="intro-card">
+        <div>
+          <p class="eyebrow">No code required</p>
+          <h1>CV 내용을 폼으로 관리하세요.</h1>
+          <p>소속이 바뀌면 기본 정보와 경력의 첫 항목만 수정하면 됩니다. 논문은 ORCID에서 자동으로 가져오므로 여기에서 입력하지 않습니다.</p>
+        </div>
+        <div class="privacy-note"><span>●</span><div><strong>내 컴퓨터에서만 실행 중</strong><p>이 편집 화면은 GitHub Pages에 올라가지 않습니다.</p></div></div>
+      </section>
+
+      <div id="editor-root" aria-live="polite"></div>
+    </main>
+  </div>
+
+  <div id="progress" class="progress" hidden>
+    <div class="progress-card">
+      <div class="spinner" aria-hidden="true"></div>
+      <h2>저장하고 CV를 다시 만드는 중입니다.</h2>
+      <p>ORCID 동기화와 PDF 생성까지 보통 10–20초 걸립니다.</p>
+      <pre id="progress-log"></pre>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script src="editor.js"></script>
+</body>
+</html>
