@@ -239,6 +239,14 @@ def build_page(profile: dict[str, Any], cv: dict[str, Any], orcid: dict[str, Any
             f'<link rel="alternate" hreflang="x-default" href="{e(base_url)}/">'
         )
     og_image = f"{base_url}/{e(profile['photo'])}" if base_url else f"{prefix}{e(profile['photo'])}"
+    favicon_color = str(profile["site"]["theme_color"]).replace("#", "%23")
+    favicon_svg = (
+        "data:image/svg+xml,"
+        "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'>"
+        f"<rect width='32' height='32' rx='7' fill='{favicon_color}'/>"
+        "<text x='16' y='23' font-family='Georgia,serif' font-size='18' "
+        "font-weight='700' fill='%23fff' text-anchor='middle'>R</text></svg>"
+    )
 
     return f"""<!doctype html>
 <html lang="{lang}">
@@ -247,6 +255,7 @@ def build_page(profile: dict[str, Any], cv: dict[str, Any], orcid: dict[str, Any
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{e(description)}">
   <meta name="theme-color" content="{e(profile['site']['theme_color'])}">
+  <link rel="icon" href="{favicon_svg}">
   <meta property="og:type" content="profile">
   <meta property="og:title" content="{e(page_title)}">
   <meta property="og:description" content="{e(description)}">
