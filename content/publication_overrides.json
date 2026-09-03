@@ -1,5 +1,5 @@
 {
-  "225212599": { "lead": true },
-  "209976478": { "lead": true },
-  "209976436": { "lead": true }
+  "225212599": { "lead": true, "label": "Co-first" },
+  "209976478": { "lead": true, "label": "Co-first" },
+  "209976436": { "lead": true, "label": "Co-first" }
 }

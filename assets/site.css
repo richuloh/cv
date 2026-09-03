@@ -433,6 +433,13 @@ button:focus-visible {
   font-weight: 700;
 }
 
+.lead-star-label {
+  color: var(--muted);
+  font-size: 0.85em;
+  font-weight: 600;
+  font-style: italic;
+}
+
 .publication-title a { color: #25282b; }
 .publication-title a:hover { color: var(--accent); }
 

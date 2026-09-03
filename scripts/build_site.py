@@ -57,13 +57,16 @@ def clean_list(items: list[dict[str, str]]) -> str:
     ) + "</ul>"
 
 
-def author_markup(work: dict[str, Any], is_lead: bool) -> str:
+def author_markup(work: dict[str, Any], is_lead: bool, star_label: str = "") -> str:
     authors = []
     for contributor in work.get("contributors") or []:
         raw_name = str(contributor.get("name") or "").strip()
         escaped = e(raw_name)
         if normalize_name(raw_name) in TARGET_NAME_VARIANTS:
-            star = '<span class="lead-star" aria-hidden="true">*</span>' if is_lead else ""
+            star = ""
+            if is_lead:
+                label_html = f' <span class="lead-star-label">({e(star_label)})</span>' if star_label else ""
+                star = f'<span class="lead-star" aria-hidden="true">*</span>{label_html}'
             escaped = f"<strong>{escaped}</strong>{star}"
         authors.append(escaped)
     return ", ".join(authors)
@@ -80,11 +83,11 @@ def is_lead_work(work: dict[str, Any], overrides: dict[str, Any]) -> bool:
     return normalize_name(contributors[0].get("name")) in TARGET_NAME_VARIANTS
 
 
-def render_publication_item(work: dict[str, Any], is_lead: bool) -> str:
+def render_publication_item(work: dict[str, Any], is_lead: bool, star_label: str = "") -> str:
     title = e(work.get("title"))
     url = e(work.get("url"))
     title_markup = f'<a href="{url}" target="_blank" rel="noopener">{title}</a>' if url else title
-    authors = author_markup(work, is_lead)
+    authors = author_markup(work, is_lead, star_label)
     author_line = f'<p class="publication-authors">{authors}</p>' if authors else ""
     journal = e(work.get("journal"))
     year = e((work.get("date") or {}).get("year"))
@@ -115,7 +118,9 @@ def publication_section(works: list[dict[str, Any]], overrides: dict[str, Any], 
     co_items = []
     for work in works:
         lead = is_lead_work(work, overrides)
-        markup = render_publication_item(work, lead)
+        put_code = str(work.get("put_code") or "")
+        star_label = str((overrides.get(put_code) or {}).get("label") or "") if lead else ""
+        markup = render_publication_item(work, lead, star_label)
         (lead_items if lead else co_items).append(markup)
 
     lead_html = "".join(lead_items) or f'<li class="empty-state">—</li>'
