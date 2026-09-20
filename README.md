@@ -26,10 +26,10 @@ python scripts/editor_server.py
 - 한글 PDF: `/downloads/richul-oh-cv-ko.pdf`
 - 영문 PDF: `/downloads/richul-oh-cv-en.pdf`
 - ORCID 공개 논문, 저자, 저널, DOI 자동 동기화
-- 매월 1일 오전 4시 23분(Asia/Seoul) 자동 빌드·배포
+- 매주 월요일 오전 4시 23분(KST, 일요일 19:23 UTC) 자동 ORCID 동기화·빌드·배포
 - 수동 실행 및 `main` 브랜치 변경 시에도 즉시 재배포
 
-GitHub Pages 자체는 정적 호스팅이지만, GitHub Actions가 매달 ORCID를 읽고 사이트와 PDF를 다시 만든 뒤 Pages에 배포합니다.
+GitHub Pages 자체는 정적 호스팅이지만, GitHub Actions가 매주 ORCID를 읽고 사이트와 PDF를 다시 만든 뒤 Pages에 배포합니다.
 
 ## 가장 자주 수정할 파일
 
