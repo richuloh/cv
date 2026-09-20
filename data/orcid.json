@@ -7,9 +7,164 @@
     "family": "Oh",
     "credit": ""
   },
-  "last_synced_utc": "2026-09-01T09:32:18Z",
-  "record_last_modified_utc": "2026-08-30T00:02:21.169000Z",
+  "last_synced_utc": "2026-09-20T15:07:51Z",
+  "record_last_modified_utc": "2026-09-20T15:04:53.774000Z",
   "works": [
+    {
+      "put_code": 227258666,
+      "title": "Evaluating an AI-assisted triage workflow for retinal diseases",
+      "journal": "PLOS Digital Health",
+      "type": "journal-article",
+      "date": {
+        "year": "2026",
+        "month": "09",
+        "day": "15"
+      },
+      "contributors": [
+        {
+          "name": "Doohyun Park",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Richul Oh",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Jihyeon Baek",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kunho Bae",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "doi": {
+          "value": "10.1371/journal.pdig.0001700",
+          "url": "https://doi.org/10.1371/journal.pdig.0001700"
+        },
+        "issn": {
+          "value": "2767-3170",
+          "url": "https://portal.issn.org/resource/ISSN/2767-3170"
+        }
+      },
+      "url": "https://doi.org/10.1371/journal.pdig.0001700",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 227258678,
+      "title": "Automated Deep Learning Framework for Retinal Landmark Detection and Quantitative Retinal Zoning in Ultra-Widefield Fundus Photography",
+      "journal": "Journal of Imaging Informatics in Medicine",
+      "type": "journal-article",
+      "date": {
+        "year": "2026",
+        "month": "09",
+        "day": "15"
+      },
+      "contributors": [
+        {
+          "name": "Richul Oh",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Jeong Min Lee",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Won Jung Lee",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Seung Woo Choi",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Eun Kyoung Lee",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Un Chul Park",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kyu Hyung Park",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Chang Ki Yoon",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "doi": {
+          "value": "10.1007/s10278-026-02259-6",
+          "url": "https://doi.org/10.1007/s10278-026-02259-6"
+        },
+        "issn": {
+          "value": "2948-2933",
+          "url": "https://portal.issn.org/resource/ISSN/2948-2933"
+        }
+      },
+      "url": "https://doi.org/10.1007/s10278-026-02259-6",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 225972543,
+      "title": "Nationwide Analysis of Eye-Related Emergency Department Visits in South Korea: NEDIS-EYE REPORT 1",
+      "journal": "Ophthalmic Epidemiology",
+      "type": "journal-article",
+      "date": {
+        "year": "2026",
+        "month": "09",
+        "day": "03"
+      },
+      "contributors": [
+        {
+          "name": "Richul Oh",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Seoyoon Choi",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kyu Hyung Park",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Sang Jun Park",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "doi": {
+          "value": "10.1080/09286586.2026.2659618",
+          "url": "https://doi.org/10.1080/09286586.2026.2659618"
+        },
+        "issn": {
+          "value": "1744-5086",
+          "url": "https://portal.issn.org/resource/ISSN/1744-5086"
+        }
+      },
+      "url": "https://doi.org/10.1080/09286586.2026.2659618",
+      "source": "Richul Oh"
+    },
     {
       "put_code": 225212599,
       "title": "Evaluating Artificial Intelligence as a First-Pass Reader in Fundus Photograph Screening: A Multireader Workflow Validation Study",
