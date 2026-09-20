@@ -60,7 +60,7 @@ def render(browser: Path, source: Path, target: Path) -> None:
             "--no-sandbox",
             "--allow-file-access-from-files",
             "--run-all-compositor-stages-before-draw",
-            "--virtual-time-budget=2500",
+            "--virtual-time-budget=10000",
             "--no-pdf-header-footer",
             f"--user-data-dir={user_data}",
             f"--print-to-pdf={temporary.resolve()}",

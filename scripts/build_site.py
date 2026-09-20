@@ -6,8 +6,17 @@ from __future__ import annotations
 import html
 import json
 import shutil
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
+
+
+KST = timezone(timedelta(hours=9))
+
+
+def build_date() -> datetime:
+    """Date the site and PDFs were generated, in Korea Standard Time."""
+    return datetime.now(KST)
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -203,6 +212,14 @@ def build_page(profile: dict[str, Any], cv: dict[str, Any], orcid: dict[str, Any
     works = orcid.get("works") or []
     address = profile["contact"]["address_ko" if is_ko else "address_en"]
     sync_date = str(orcid.get("last_synced_utc") or "").split("T")[0]
+    generated = build_date()
+    generated_iso = generated.strftime("%Y-%m-%d")
+    pdf_download_name = pdf_name.replace(".pdf", f"-{generated_iso}.pdf")
+    generated_text = (
+        f"작성일 {generated.year}년 {generated.month}월 {generated.day}일"
+        if is_ko
+        else f"Generated {generated.day} {generated.strftime('%B %Y')}"
+    )
     email_links = "<br>".join(
         f'<a href="mailto:{e(email)}">{e(email)}</a>' for email in profile["contact"].get("emails", [])
     )
@@ -269,6 +286,9 @@ def build_page(profile: dict[str, Any], cv: dict[str, Any], orcid: dict[str, Any
   {canonical_tag}
   {hreflang_tags}
   <title>{e(page_title)}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@400;700&display=swap">
   <link rel="stylesheet" href="{prefix}assets/site.css">
   <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False).replace('</', '<\\/')}</script>
 </head>
@@ -287,7 +307,7 @@ def build_page(profile: dict[str, Any], cv: dict[str, Any], orcid: dict[str, Any
         </nav>
         <div class="header-actions">
           <a class="header-link language-link" href="{language_href}" hreflang="{'en' if is_ko else 'ko'}">{e(labels['language'])}</a>
-          <a class="header-link" href="{prefix}downloads/{pdf_name}" download>CV PDF</a>
+          <a class="header-link" href="{prefix}downloads/{pdf_name}" download="{e(pdf_download_name)}">CV PDF</a>
         </div>
       </div>
     </div>
@@ -307,7 +327,8 @@ def build_page(profile: dict[str, Any], cv: dict[str, Any], orcid: dict[str, Any
           <div><dt>{e(labels['orcid'])}</dt><dd><a href="{e(profile['links']['orcid'])}" target="_blank" rel="me noopener">{e(profile['orcid_id'])}</a></dd></div>
           <div><dt>{e(labels['scholar'])}</dt><dd><a href="{e(profile['links']['google_scholar'])}" target="_blank" rel="noopener">Google Scholar</a></dd></div>
         </dl>
-        <a class="cv-link" href="{prefix}downloads/{pdf_name}" download>{e(labels['download_pdf'])} ↓</a>
+        <a class="cv-link" href="{prefix}downloads/{pdf_name}" download="{e(pdf_download_name)}">{e(labels['download_pdf'])} ↓</a>
+        <p class="print-date"><time datetime="{generated_iso}">{e(generated_text)}</time></p>
       </aside>
 
       <div class="academic-content">

@@ -82,7 +82,7 @@ button:focus-visible {
 
 .brand {
   color: var(--ink);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Georgia, "Times New Roman", "Noto Serif KR", serif;
   font-size: 21px;
   font-weight: 700;
   letter-spacing: -.01em;
@@ -194,6 +194,8 @@ button:focus-visible {
 }
 
 .author-contact dd a { display: block; }
+
+.print-date { display: none; }
 
 .cv-link {
   display: inline-block;
@@ -653,6 +655,7 @@ html[lang="en"] .disclosure-trigger[aria-expanded="true"]::after { content: "Clo
   .author-contact > div { margin-bottom: 2mm; }
   .author-contact dt { font-size: 6.6pt; }
   .author-contact dd, .cv-link { font-size: 7.2pt; }
+  .print-date { display: block; margin: 3mm 0 0; font-size: 7.2pt; color: #5f6569; }
   .academic-content { padding: 0; }
   .intro-section { min-height: 0; padding: 0 0 6mm; }
   .intro-section > h2, .section-heading h2 { font-family: Inter, Pretendard, "Noto Sans KR", sans-serif; font-size: 15.5pt; font-weight: 700; }
