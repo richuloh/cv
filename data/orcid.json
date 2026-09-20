@@ -7,9 +7,74 @@
     "family": "Oh",
     "credit": ""
   },
-  "last_synced_utc": "2026-09-20T15:07:51Z",
-  "record_last_modified_utc": "2026-09-20T15:04:53.774000Z",
+  "last_synced_utc": "2026-09-20T15:41:46Z",
+  "record_last_modified_utc": "2026-09-20T15:20:31.663000Z",
   "works": [
+    {
+      "put_code": 227259417,
+      "title": "Deep learning–derived retinal age gap and its associations with lifestyle, systemic, and ocular health in a health screening cohort",
+      "journal": "GeroScience",
+      "type": "journal-article",
+      "date": {
+        "year": "2026",
+        "month": "09",
+        "day": "17"
+      },
+      "contributors": [
+        {
+          "name": "Boa Jang",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Richul Oh",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Tae-Hoon Lee",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Chang Ki Yoon",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Hyuk Jin Choi",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Jinwook Choi",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Young-Gon Kim",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kunho Bae",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "doi": {
+          "value": "10.1007/s11357-026-02538-8",
+          "url": "https://doi.org/10.1007/s11357-026-02538-8"
+        },
+        "issn": {
+          "value": "2509-2723",
+          "url": "https://portal.issn.org/resource/ISSN/2509-2723"
+        }
+      },
+      "url": "https://doi.org/10.1007/s11357-026-02538-8",
+      "source": "Richul Oh"
+    },
     {
       "put_code": 227258666,
       "title": "Evaluating an AI-assisted triage workflow for retinal diseases",
