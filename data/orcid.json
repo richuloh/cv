@@ -7,8 +7,8 @@
     "family": "Oh",
     "credit": ""
   },
-  "last_synced_utc": "2026-09-20T15:41:46Z",
-  "record_last_modified_utc": "2026-09-20T15:20:31.663000Z",
+  "last_synced_utc": "2026-09-30T23:03:20Z",
+  "record_last_modified_utc": "2026-09-29T03:43:30.487000Z",
   "works": [
     {
       "put_code": 227259417,
@@ -228,6 +228,71 @@
         }
       },
       "url": "https://doi.org/10.1080/09286586.2026.2659618",
+      "source": "Richul Oh"
+    },
+    {
+      "put_code": 228120076,
+      "title": "Intraocular Lens Positional Instability and Refractive Prediction Error after Cataract Surgery in Eyes with Retinitis Pigmentosa: A Comparative Study",
+      "journal": "Korean Journal of Ophthalmology",
+      "type": "journal-article",
+      "date": {
+        "year": "2026",
+        "month": "08",
+        "day": "05"
+      },
+      "contributors": [
+        {
+          "name": "Se Young Hong",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Richul Oh",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Hyun-Min Na",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Seung Woo Choi",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Chang Ho Yoon",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Eun Kyoung Lee",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Kyu Hyung Park",
+          "role": "author",
+          "sequence": ""
+        },
+        {
+          "name": "Chang Ki Yoon",
+          "role": "author",
+          "sequence": ""
+        }
+      ],
+      "external_ids": {
+        "doi": {
+          "value": "10.3341/kjo.2026.0096",
+          "url": "https://doi.org/10.3341/kjo.2026.0096"
+        },
+        "issn": {
+          "value": "2092-9382",
+          "url": "https://portal.issn.org/resource/ISSN/2092-9382"
+        }
+      },
+      "url": "https://doi.org/10.3341/kjo.2026.0096",
       "source": "Richul Oh"
     },
     {
@@ -1280,7 +1345,7 @@
     "employment": [
       {
         "organization": "Seoul National University Hospital",
-        "role": "Clinical Faculty",
+        "role": "Clinical Assistant Professor",
         "department": "Ophthalmology",
         "start": "2026-03",
         "end": ""
