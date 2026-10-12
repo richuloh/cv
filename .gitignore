@@ -18,3 +18,6 @@ Thumbs.db
 
 # Claude Code session state (local only)
 .claude/
+
+# Clarivate JCR / Scopus licensed data; kept locally only
+/JCR Reports/
